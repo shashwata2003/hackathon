@@ -1,77 +1,77 @@
 *{
-			margin: 0px; 
-			padding: 0px; 
-			box-shadow:border-box;
-		}  
+      margin: 0px; 
+      padding: 0px; 
+      box-shadow:border-box;
+    }  
 .image{
 
-				
-				background-position: center; 
-				background-size: cover; 
-				background-repeat: no-repeat; 
-				width: 100%; 
-				height:80vh;
-				color: white;
-				animation-name:slideshow; 
-				animation-duration: 4s;
-				animation-iteration-count: infinite; 
-				transition-timing-function: ease-in-out;
-				
-		} 
-		@keyframes slideshow{
-			0%{
-				background-image:url("image/1.png");
-				
-			} 
-			
-			
-			50%{
-				background-image:url("image/2.png"); 
-				
-			} 
-			100%{
-				background-image:url("image/3.png"); 
-				
+        margin-top:2rem;
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height:80vh;
+        color: white;
+        animation-name:slideshow; 
+        animation-duration: 4s;
+        animation-iteration-count: infinite; 
+        transition-timing-function: ease-in-out;
+        
+    } 
+    @keyframes slideshow{
+      0%{
+        background-image:url("image/1.png");
+        
+      } 
+      
+      
+      50%{
+        background-image:url("image/2.png"); 
+        
+      } 
+      100%{
+        background-image:url("image/3.png"); 
+        
 
-				
-				} 
-			} 
-			
+        
+        } 
+      } 
+      
 .text{
-	display: flex; 
-	align-items: center;
+  display: flex; 
+  align-items: center;
 } 
 .review{
-	width:45vw; 
-	height:7vh;
+  width:45vw; 
+  height:7vh;
 } 
 .svg_2{ 
-	display: flex;
-	justify-content: end; 
+  display: flex;
+  justify-content: end; 
 
 
 } 
 .subheading:hover{ 
-	background-color:#0275d8;
-	border-radius: 3%;
+  background-color:#0275d8;
+  border-radius: 3%;
 
 } 
 .sec1btn: hover{
-	background-color:white; 
-	color:blue;
-	border-radius: 3%;
+  background-color:white; 
+  color:blue;
+  border-radius: 3%;
 } 
 .bwhite:hover{ 
-	background-color:#0275d8; 
-	color:white; 
-	border-radius:3%; 
-	
+  background-color:#0275d8; 
+  color:white; 
+  border-radius:3%; 
+  
 
 
 } 
 @media only screen and (max-width: 600px) {
   .container{
-  		width: 100%; 
-		height:40vh;
+      width: 100%; 
+    height:40vh;
   }
 }
